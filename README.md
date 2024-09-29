@@ -1,5 +1,4 @@
 <div align="center">
-<img src="" align="center" style="width: 100%" />
 </div>  
   
 
@@ -74,7 +73,7 @@
 ## Github Stats  
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=kuyltep&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kuyltep&hide_border=true&layout=compact" align="left" />  
+<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kuyltep&hide_border=true&layout=compact" align="left" /></div>
 
 <br/>  
 
