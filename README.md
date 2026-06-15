@@ -2,7 +2,7 @@
 </div>  
   
 
-### <div align="center">I'm Vlad, a fullstack-developer 👨‍💻</div>  
+### <div align="center">I'm Nikita Lantuh, a fullstack-developer 👨‍💻</div>  
   
 
 <br/>  
