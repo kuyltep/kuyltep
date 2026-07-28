@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2CA5E0,100:1a1a2e&height=180&section=header&text=Vlad%20%C2%B7%20Backend%20Developer&fontSize=38&fontColor=ffffff&animation=fadeIn&desc=Python%20/%20FastAPI%20%C2%B7%20Microservices%20%26%20System%20Design&descAlignY=65&descSize=18" />
+<img src="banner.svg" alt="Vlad · Backend Developer" width="100%" />
 
 </div>
 
@@ -35,6 +35,13 @@ Docker · GitHub Actions (CI/CD) · Ansible · Prometheus · Grafana · Loki · 
 
 <br/>
 
+## Featured Projects
+
+<!-- TODO: заполни 2-3 своими репо -->
+> - **[project-name](https://github.com/kuyltep/project-name)** — короткое описание, что делает и на чём написан
+> - **[project-name-2](https://github.com/kuyltep/project-name-2)** — короткое описание
+
+<br/>
 
 ## GitHub Stats
 
