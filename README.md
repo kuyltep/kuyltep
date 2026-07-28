@@ -35,13 +35,6 @@ Docker · GitHub Actions (CI/CD) · Ansible · Prometheus · Grafana · Loki · 
 
 <br/>
 
-## Featured Projects
-
-<!-- TODO: заполни 2-3 своими репо -->
-> - **[project-name](https://github.com/kuyltep/project-name)** — короткое описание, что делает и на чём написан
-> - **[project-name-2](https://github.com/kuyltep/project-name-2)** — короткое описание
-
-<br/>
 
 ## GitHub Stats
 
