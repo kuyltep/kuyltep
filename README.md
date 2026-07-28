@@ -1,8 +1,6 @@
 <div align="center">
 
-# Vlad · Backend Developer
-
-Python / FastAPI · Microservices
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2CA5E0,100:1a1a2e&height=180&section=header&text=Vlad%20%C2%B7%20Backend%20Developer&fontSize=38&fontColor=ffffff&animation=fadeIn&desc=Python%20/%20FastAPI%20%C2%B7%20Microservices%20%26%20System%20Design&descAlignY=65&descSize=18" />
 
 </div>
 
@@ -10,9 +8,9 @@ Python / FastAPI · Microservices
 
 ## About
 
-Middle backend developer (3 yrs), currently employed.
+Middle backend developer (2-4 yrs), currently employed.
 Design and build microservice systems from scratch: service boundaries, async messaging (Kafka, RabbitMQ), caching (Redis), real-time (WebSocket).
-Own the full delivery path - CI/CD (GitHub Actions), infra provisioning (Ansible), observability (Prometheus/Grafana/Loki) - not just app code.
+Own the full delivery path — CI/CD (GitHub Actions), infra provisioning (Ansible), observability (Prometheus/Grafana/Loki) — not just app code.
 Open to new opportunities.
 
 <br/>
@@ -36,6 +34,7 @@ Docker · GitHub Actions (CI/CD) · Ansible · Prometheus · Grafana · Loki · 
 </div>
 
 <br/>
+
 
 ## GitHub Stats
 
