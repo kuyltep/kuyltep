@@ -1,0 +1,15 @@
+<svg width="100%" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vlad, Backend Developer, Python and FastAPI, Microservices and System Design">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2CA5E0" />
+      <stop offset="100%" stop-color="#1a1a2e" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="180" fill="url(#bg)" />
+  <text x="50%" y="78" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">
+    Vlad · Backend Developer
+  </text>
+  <text x="50%" y="118" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#dce8f0">
+    Python / FastAPI · Microservices &amp; System Design
+  </text>
+</svg>
