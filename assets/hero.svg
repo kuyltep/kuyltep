@@ -1,0 +1,71 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vlad: fullstack, ML infrastructure and AI engineer. Diagram of a system from web app through API, Kafka queue, GPU worker and LLM agent.">
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .node rect { fill: #13364E; stroke: #8FB8D0; stroke-width: 1.2; }
+    .node .k { fill: #E8F1F6; font-size: 16px; font-weight: 600; }
+    .node .v { fill: #8FB8D0; font-size: 13.5px; }
+    .edge { fill: none; stroke: #3E6A86; stroke-width: 1.5; }
+    .store rect { fill: #0F2A3D; stroke: #3E6A86; stroke-dasharray: 4 3; }
+    @media (prefers-reduced-motion: reduce) { .pkt { display: none; } }
+  </style>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1C3E56" />
+    </pattern>
+    <marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#3E6A86" />
+    </marker>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" rx="12" fill="#0F2A3D" />
+  <rect x="380" width="820" height="340" fill="url(#grid)" />
+
+  <g class="mono">
+    <text x="48" y="118" fill="#E8F1F6" font-size="60" font-weight="700">Vlad</text>
+    <text x="48" y="158" fill="#F2B134" font-size="19">fullstack, ML infra, AI</text>
+    <text x="48" y="210" fill="#8FB8D0" font-size="16">I build the whole path:</text>
+    <text x="48" y="235" fill="#8FB8D0" font-size="16">interface, API, queues,</text>
+    <text x="48" y="260" fill="#8FB8D0" font-size="16">GPU inference, LLM agents.</text>
+  </g>
+
+  <g class="edge" marker-end="url(#arr)">
+    <path d="M495 104 V146" />
+    <path d="M570 171 H636" />
+    <path d="M790 171 H808 V91 H856" />
+    <path d="M790 171 H856" />
+    <path d="M1010 91 H1046" />
+    <path d="M495 196 V246" />
+    <path d="M715 196 V246" />
+    <path d="M935 196 V246" />
+  </g>
+
+  <g class="pkt">
+    <circle r="7" fill="#F2B134" filter="url(#glow)" opacity="0.7">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M495 81 V171 H715 H808 V91 H1105" />
+    </circle>
+    <circle r="4" fill="#F2B134">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M495 81 V171 H715 H808 V91 H1105" />
+    </circle>
+    <circle r="7" fill="#F2B134" filter="url(#glow)" opacity="0.7">
+      <animateMotion dur="4s" begin="-2s" repeatCount="indefinite" path="M495 81 V171 H935 V270" />
+    </circle>
+    <circle r="4" fill="#F2B134">
+      <animateMotion dur="4s" begin="-2s" repeatCount="indefinite" path="M495 81 V171 H935 V270" />
+    </circle>
+  </g>
+
+  <g class="mono">
+    <g class="node"><rect x="420" y="58" width="150" height="46" rx="6" /><text class="k" x="436" y="78">web</text><text class="v" x="436" y="95">next.js / react</text></g>
+    <g class="node"><rect x="420" y="148" width="150" height="46" rx="6" /><text class="k" x="436" y="168">api</text><text class="v" x="436" y="185">fastapi / nest</text></g>
+    <g class="node"><rect x="640" y="148" width="150" height="46" rx="23" /><text class="k" x="660" y="168">queue</text><text class="v" x="660" y="185">kafka / rmq</text></g>
+    <g class="node"><rect x="860" y="68" width="150" height="46" rx="6" /><text class="k" x="876" y="88">gpu-worker</text><text class="v" x="876" y="105">pytorch / trt</text></g>
+    <g class="node"><rect x="860" y="148" width="150" height="46" rx="6" /><text class="k" x="876" y="168">agent</text><text class="v" x="876" y="185">llm + rag</text></g>
+    <g class="node"><rect x="1050" y="68" width="110" height="46" rx="6" /><text class="k" x="1066" y="88">stream</text><text class="v" x="1066" y="105">srt / hls</text></g>
+    <g class="node store"><rect x="420" y="250" width="150" height="40" rx="6" /><text class="k" x="436" y="275">redis</text></g>
+    <g class="node store"><rect x="640" y="250" width="150" height="40" rx="6" /><text class="k" x="656" y="275">postgres</text></g>
+    <g class="node store"><rect x="860" y="250" width="150" height="40" rx="6" /><text class="k" x="876" y="275">qdrant</text></g>
+  </g>
+</svg>
